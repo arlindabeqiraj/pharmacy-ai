@@ -1,0 +1,31 @@
+01:02:24 | INFO     | ============================================================
+01:02:24 | INFO     |   PHARMACY AI - Data Preparation Pipeline
+01:02:24 | INFO     | ============================================================
+01:02:24 | INFO     | Loading Medicine Details dataset...
+01:02:25 | INFO     |   Loaded 11,825 medicines
+01:02:25 | INFO     | Loading Drug-Drug Interactions dataset...
+01:02:25 | INFO     |   Moderate    : 33,057
+01:02:25 | INFO     |   Unknown     : 14,767
+01:02:25 | INFO     |   Major       :  4,906
+01:02:25 | INFO     |   Minor       :  3,637
+01:02:26 | INFO     |   Loaded 56,367 interactions
+01:02:26 | INFO     | Loading Patient Reviews dataset...
+01:02:27 | INFO     |   Loaded 34,346 reviews
+01:02:27 | INFO     | 
+Validating outputs...
+01:02:27 | INFO     |   Medicines validation passed
+01:02:27 | INFO     |   Interactions validation passed
+01:02:27 | INFO     |   Reviews validation passed
+01:02:27 | INFO     | 
+Saving prepared datasets...
+01:02:28 | INFO     | 
+============================================================
+01:02:28 | INFO     |   PIPELINE COMPLETE - Summary
+01:02:28 | INFO     | ============================================================
+01:02:28 | INFO     |   Medicines            raw= 11,825 | clean= 11,825 | dropped=     0 (0.0%)
+01:02:28 | INFO     |   Interactions         raw= 56,367 | clean= 56,367 | dropped=     0 (0.0%)
+01:02:28 | INFO     |   Reviews              raw= 53,766 | clean= 34,346 | dropped=19,420 (36.1%)
+01:02:28 | INFO     |   TOTAL RAG DOCUMENTS  102,538
+01:02:28 | INFO     |   Elapsed time         4.35s
+01:02:28 | INFO     |   Output saved to: C:\Users\Lenovo\Desktop\pharmacy-ai\data\prepared
+01:02:28 | INFO     | ============================================================
